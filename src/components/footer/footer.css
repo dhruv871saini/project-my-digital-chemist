@@ -1,0 +1,146 @@
+/* Footer.css */
+
+.footer {
+    background-color: #007bba;
+    color: #ffffff;
+    padding: 50px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer h5 {
+    color: #f56539; /* Highlighted heading color */
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .footer p, .footer ul li {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer ul li a:hover {
+    color: #f56539;
+    text-decoration: underline;
+  }
+  
+  .footer-image {
+    width: 150px; /* Larger logo */
+    margin-bottom: 15px;
+    border-radius: 50%; /* Circular image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #f56539;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .col-md-4 {
+    margin-bottom: 20px;
+  }
+  
+  .footer .col-md-4 p {
+    margin: 5px 0;
+  }
+  
+  .footer .social-icons {
+    margin-top: 10px;
+  }
+  
+  .footer .social-icons a {
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #f56539;
+  }
+  
+  .footer-box {
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-box h6 {
+    color: #f56539;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .footer-box ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-box ul li a:hover {
+    color: #f56539;
+    text-decoration: underline;
+  }
+  
+  .footer .google-play {
+    margin-top: 15px;
+  }
+  
+  .footer .google-play img {
+    width: 150px;
+    border-radius: 8px;
+  }
+  
+  .footer .follow-us {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer .follow-us span {
+    color: #f56539;
+    font-weight: bold;
+  }
+  
+  .footer .follow-us a {
+    margin: 0 8px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .footer .follow-us a:hover {
+    color: #f56539;
+  }
+  
